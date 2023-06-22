@@ -1,0 +1,47 @@
+@import "reset.css";
+
+header{
+    position: fixed;
+}
+
+.header_top {
+    justify-content: right;
+    display: flex;
+    width: 120rem;
+}
+.top_inner li{
+    display: flex;
+    padding:0.8rem 1rem 0rem;
+    height: 2.2rem;
+    float: left;
+}
+
+.header_main{
+    
+    > .main_inner {
+        width: 120rem;
+        display: flex;
+        justify-content: space-between;
+        
+        > .main_list li{
+            display: flex;
+            padding:0.8rem 1rem 0rem;
+            height: 2.2rem;
+            float: left;
+        }
+    }
+}
+
+.header_bottom{
+    
+    > .tabs{
+        width: 120rem;
+        display: flex;
+        > .ul_tab{
+            display: flex;
+            padding:0.8rem 1rem 0rem;
+            height: 2.2rem;
+            float: left;
+        }
+    }
+}
